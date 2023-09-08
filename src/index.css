@@ -1,18 +1,20 @@
 body {
   font-family: 'Hubballi', cursive;
-  background-color: #f1f5f9;
+  background-color: rgb(29, 30, 44);
+  color: white;
   font-size: 1.6rem;
 }
 header {
-  background-color: #0ea5e9;
-  padding: 1.5rem;
-  border-bottom: 1rem solid #0284c7;
+  background-color: rgb(29, 30, 44);
+  border-bottom: 1rem solid rgb(29, 30, 44);
+  margin: 0;
+  margin-top: 4rem;
 }
 header h1 {
   text-align: center;
   color: white;
   font-family: 'Inter', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   margin:0;
 }
 .dos-columnas {
@@ -25,17 +27,20 @@ header h1 {
   }
 }
 main {
-  margin: 4rem auto;
+  margin: 2rem auto;
   max-width: 1200px;
 }
 .contenedor {
   margin: 0 auto 2rem auto;
   border-radius: .5rem;
-  background-color: white;
+  background-color: transparent;
   padding: 4rem;
-  -webkit-box-shadow: 0px 10px 33px -17px rgba(173,173,173,1);
-  -moz-box-shadow: 0px 10px 33px -17px rgba(173,173,173,1);
-  box-shadow: 0px 10px 33px -17px rgba(173,173,173,1);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   width: 100%;
 }
 form {
@@ -144,9 +149,7 @@ form {
 }
 
 
-.clima{
 
-}
 
 .clima h2 {
   font-size: 2rem;
@@ -172,4 +175,13 @@ margin: 0;
   display: flex;
   justify-content: center;
   gap: 4rem;
+}
+.centerImg{
+  position: relative;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+.imgClima{
+  height: 10rem;
 }
