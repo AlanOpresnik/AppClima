@@ -35,7 +35,9 @@ const Resultado = () => {
   const weatherIcon = esDeNoche() ? nightImg : weatherIcons[weather[0].main] || clearImg;
 
   return (
+   
     <div className="contenedor clima">
+    <div className="paddingClima">
       <h2>El clima en {name} es:</h2>
       <div className="centerImg">
         <img className="imgClima" src={weatherIcon} alt="Weather Icon" />
@@ -55,7 +57,9 @@ const Resultado = () => {
         <p>Humedad: {Math.round(main.humidity)} %</p>
         <p>Presión: {Math.round(main.pressure)} hPa</p>
       </div>
+      </div>
     </div>
+
   );
 };
 

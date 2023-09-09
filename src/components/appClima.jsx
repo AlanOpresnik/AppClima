@@ -8,7 +8,7 @@ export const AppClima = () => {
 
   return (
     <>
-      <main className="dos-columnas">
+      <main className="climaContainer">
         <Formulario />
         {
             cargando ? <Loading /> :
