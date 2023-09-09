@@ -36,11 +36,15 @@ const ClimaProvider = ({ children }) => {
       const { data: clima } = await axios(urlClima);
         console.log(urlClima)
       setResultadoClima(clima);
+      
     } catch (error) {
       setNoResultado("No se encontraron resultados");
     } finally {
       setCargando(false);
     }
+    setTimeout(() => {
+      window.scrollTo(0, document.body.scrollHeight);
+    }, 300);
   };
   return (
     <ClimaContext.Provider
