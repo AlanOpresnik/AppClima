@@ -247,8 +247,8 @@ input[type="submit"]:hover {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 2rem;
+  gap: 25px;
+
 }
 
 .centerImg {
