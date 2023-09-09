@@ -1,3 +1,7 @@
+*{
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Hubballi', cursive;
   background-color: rgb(29, 30, 44);
@@ -35,10 +39,9 @@ main {
 }
 
 .contenedor {
-  margin: 0 auto 2rem auto;
   border-radius: .5rem;
   background-color: transparent;
-  padding: 4rem;
+  padding: 2.5rem;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -49,7 +52,6 @@ main {
 }
 
 .climaContainer {
-  padding: 1rem 3rem; 
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -76,7 +78,7 @@ main {
 .campo select {
   all: unset;
   border: 1px solid #cbd5e1;
-  width: 100%;
+  width: 93%;
   border-radius: 1rem;
   padding: .5rem;
 }

@@ -37,7 +37,7 @@ const Resultado = () => {
   return (
    
     <div className="contenedor clima">
-    <div className="paddingClima">
+    <div className="paddingclima">
       <h2>El clima en {name} es:</h2>
       <div className="centerImg">
         <img className="imgClima" src={weatherIcon} alt="Weather Icon" />
